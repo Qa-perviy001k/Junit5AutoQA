@@ -6,9 +6,16 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
+ dependencies {
     testImplementation (
-            "org.junit.jupiter:junit-jupiter:5.9.2"
+            "com.codeborne:selenide:7.9.2",
+            "org.junit.jupiter:junit-jupiter:5.9.2",
+            'org.junit.jupiter:junit-jupiter-engine:5.9.2',
+            "ch.qos.logback:logback-classic:1.5.18",
+            'org.slf4j:slf4j-api:1.7.36',
+            'org.seleniumhq.selenium:selenium-firefox-driver:4.10.0',
+            'com.codeborne:selenide:6.15.0'
+
     )
 }
 
